@@ -1,0 +1,17 @@
+<configuration>
+    <!-- 通知框架MR使用YARN -->
+    <property>
+        <name>mapreduce.framework.name</name>
+        <value>yarn</value>
+    </property>
+    <!-- jobhistory的address -->
+        <property>
+        <name>mapreduce.jobhistory.address</name>
+        <value>master:10020</value>
+    </property>
+    <!-- jobhistory的webapp.address -->
+    <property>
+        <name>mapreduce.jobhistory.webapp.address</name>
+        <value>master:19888</value>
+    </property>
+</configuration>

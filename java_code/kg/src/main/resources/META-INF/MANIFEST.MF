@@ -1,0 +1,59 @@
+Manifest-Version: 1.0
+Main-Class: com.jsw.kg.App
+Class-Path: commons-math-2.1.jar jetty-jndi-8.1.14.v20131031.jar jcl-ove
+ r-slf4j-1.7.5.jar jetty-xml-8.1.14.v20131031.jar cassandra-all-1.2.6.ja
+ r metrics-core-3.0.0.jar xmlenc-0.52.jar snappy-java-1.0.5.jar py4j-0.8
+ .2.1.jar json4s-core_2.10-3.2.10.jar httpcore-4.1.3.jar stream-2.7.0.ja
+ r javax.mail.glassfish-1.4.1.v201005082020.jar zeromq-scala-binding_2.1
+ 0-0.0.7.jar curator-framework-2.4.0.jar pyrolite-2.0.1.jar activation-1
+ .1.jar spark-streaming-mqtt_2.10-1.1.1.jar jetty-continuation-8.1.14.v2
+ 0131031.jar objenesis-1.2.jar commons-net-2.2.jar commons-el-1.0.jar ja
+ ckson-mapper-asl-1.8.8.jar spark-streaming-zeromq_2.10-1.1.1.jar spark-
+ streaming-flume-sink_2.10-1.1.1.jar jetty-plus-8.1.14.v20131031.jar jam
+ m-0.2.5.jar chill-java-0.3.6.jar scala-compiler-2.10.1.jar jasper-compi
+ ler-5.5.23.jar flume-ng-core-1.4.0.jar jetty-util-8.1.14.v20131031.jar 
+ reflectasm-1.07-shaded.jar core-3.1.1.jar antlr-2.7.7.jar jamon-runtime
+ -2.3.1.jar jackson-jaxrs-1.8.8.jar scala-library-2.11.0.jar scala-refle
+ ct-2.11.0.jar json4s-jackson_2.10-3.2.10.jar antlr-runtime-3.2.jar comm
+ ons-collections-3.2.1.jar protobuf-java-2.4.1-shaded.jar netty-3.6.6.Fi
+ nal.jar jersey-core-1.8.jar mina-core-2.0.4.jar spark-streaming-flume_2
+ .10-1.1.1.jar protobuf-java-2.4.0a.jar libthrift-0.8.0.jar twitter4j-st
+ ream-3.0.3.jar jsp-api-2.1-6.1.14.jar slf4j-api-1.4.3.jar snakeyaml-1.6
+ .jar jetty-server-8.1.14.v20131031.jar mesos-0.18.1-shaded-protobuf.jar
+  jackson-core-2.3.1.jar servlet-api-2.5-20110124.jar stax-api-1.0.1.jar
+  jets3t-0.7.1.jar antlr-3.2.jar high-scale-lib-1.1.1.jar config-1.0.2.j
+ ar kryo-2.21.jar joda-time-2.1.jar jasper-runtime-5.5.23.jar algebird-c
+ ore_2.10-0.1.11.jar tachyon-0.5.0.jar metrics-jvm-3.0.0.jar curator-rec
+ ipes-2.4.0.jar colt-1.2.0.jar commons-cli-1.2.jar jul-to-slf4j-1.7.5.ja
+ r jetty-webapp-8.1.14.v20131031.jar paranamer-2.6.jar commons-configura
+ tion-1.6.jar jna-3.0.9.jar jetty-servlet-8.1.14.v20131031.jar gson-2.2.
+ 2.jar cassandra-thrift-1.2.6.jar commons-lang3-3.3.2.jar jsr305-1.3.9.j
+ ar commons-beanutils-core-1.8.0.jar jaxb-api-2.1.jar json-simple-1.1.ja
+ r jnr-constants-0.8.2.jar metrics-json-3.0.0.jar tachyon-client-0.5.0.j
+ ar spark-streaming-twitter_2.10-1.1.1.jar commons-digester-1.8.jar json
+ 4s-ast_2.10-3.2.10.jar twitter4j-core-3.0.3.jar minlog-1.2.jar javax.ac
+ tivation-1.1.0.v201105071233.jar chill_2.10-0.3.6.jar commons-beanutils
+ -1.7.0.jar javax.servlet-3.0.0.v201112011016.jar jackson-xc-1.8.8.jar s
+ copt_2.10-3.2.0.jar jetty-io-8.1.14.v20131031.jar lz4-1.1.0.jar akka-ze
+ romq_2.10-2.2.3-shaded-protobuf.jar uncommons-maths-1.2.2a.jar jetty-se
+ curity-8.1.14.v20131031.jar scala-reflect-2.10.1.jar metrics-core-2.1.2
+ .jar commons-httpclient-3.1.jar jersey-json-1.8.jar kafka_2.10-0.8.0.ja
+ r flume-ng-sdk-1.4.0.jar zkclient-0.3.jar jbcrypt-0.3m.jar spark-exampl
+ es_2.10-1.1.1.jar metrics-annotation-2.2.0.jar zookeeper-3.4.5.jar metr
+ ics-graphite-3.0.0.jar commons-codec-1.4.jar akka-actor_2.10-2.2.3-shad
+ ed-protobuf.jar flume-ng-configuration-1.4.0.jar akka-slf4j_2.10-2.2.3-
+ shaded-protobuf.jar hadoop-client-1.0.4.jar jetty-util-6.1.26.jar oro-2
+ .0.8.jar jettison-1.1.jar jackson-annotations-2.3.0.jar mqtt-client-0.4
+ .0.jar jackson-databind-2.3.1.jar spark-streaming-kafka_2.10-1.1.1.jar 
+ scalap-2.10.0.jar scala-library-2.10.0.jar snaptree-0.1.jar slf4j-log4j
+ 12-1.4.3.jar commons-io-2.1.jar hbase-0.94.6.jar concurrent-1.3.4.jar j
+ etty-6.1.26.jar jackson-core-asl-1.8.8.jar javax.transaction-1.1.1.v201
+ 105210645.jar guava-11.0.2.jar jaxb-impl-2.2.3-1.jar spark-streaming_2.
+ 10-1.1.1.jar jetty-http-8.1.14.v20131031.jar stringtemplate-3.2.jar jer
+ sey-server-1.8.jar hsqldb-1.8.0.10.jar compress-lzf-1.0.0.jar commons-l
+ ang-2.5.jar hadoop-core-1.0.4.jar avro-1.5.3.jar servlet-api-2.5-6.1.14
+ .jar akka-remote_2.10-2.2.3-shaded-protobuf.jar httpclient-4.1.2.jar cu
+ rator-client-2.4.0.jar netty-all-4.0.23.Final.jar spark-core_2.10-1.1.1
+ .jar JavaEWAH-0.6.6.jar jsp-2.1-6.1.14.jar velocity-1.7.jar log4j-1.2.1
+ 6.jar avro-ipc-1.5.3.jar
+
