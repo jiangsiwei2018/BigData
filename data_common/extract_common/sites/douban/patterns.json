@@ -1,0 +1,42 @@
+[
+    {
+        "patterns":["https://movie.douban.com/subject"],
+        "template":[
+            {"key":"title", "xpath":"//h1", "type":"text", "method": "process_text"},
+            {"current":{"key":"body", "xpath":"//*[@id=\"info\"]/span", "type":"list"},
+            "children":[
+                {"key":"title2", "xpath":"//*[@class=\"pl\"]", "type":"text"},
+                {"key":"content", "xpath":"//*[@class=\"attrs\"]", "type":"text"}]
+            },
+            {"current":{"key":"actors", "xpath":"//*[@id=\"celebrities\"]/ul/li[@class=\"celebrity\"]","type":"list"},
+            "children":[
+                {"key":"actor","xpath":"//a/@title","type":"text"},
+                {"current":{ "key":"info", "xpath":"//*[@class=\"info\"]", "type":"list"},
+                "children":[
+                    {"key":"name", "xpath":"//*[@class=\"name\"]/a", "type":"text"},
+                    {"key":"href", "xpath":"//*[@class=\"name\"]/a/@href", "type":"text"},
+                    {"key":"role", "xpath":"//*[@class=\"role\"]", "type":"text"}]
+                }]
+            },
+            {"current":{ "key":"info", "xpath":"//*[contains(@class, \"celebrities-list\")]", "type":"list"},
+            "children":[
+                    {"key": "name", "tag": "span", "attrib": {"class": "name"}},
+                    {"key": "role", "tag": "span", "attrib": {"class": "role"}}
+                ],
+            "mode": "parallel-tree"
+            },
+            {"current":{"key":"actors", "xpath":"//*[@id=\"celebrities\"]/ul/li[@class=\"celebrity\"]","type":"list"},
+            "children":[
+                {"key":"actor","xpath":"//a/@title","type":"text"},
+                {"current":{ "key":"info", "xpath":"//*[@class=\"info\"]", "type":"list"},
+                "children":[
+                    {"key":"name", "xpath":"//*[@class=\"name\"]/a", "type":"text"},
+                    {"key":"href", "xpath":"//*[@class=\"name\"]/a/@href", "type":"text"},
+                    {"key":"role", "xpath":"//*[@class=\"role\"]", "type":"text"}]
+                }],
+            "mode": "parallel-split",
+            "block_start": {"reg": "", "tag": "", "class": ""}
+            }
+        ]
+    }
+]

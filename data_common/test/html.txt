@@ -1,0 +1,515 @@
+<div id="main_content">
+<div id="content">
+
+
+<h2>
+随笔分类 - python
+</h2>
+
+
+			<div class="post">
+				<h5>
+<a class="entrylistItemTitle" href="https://www.cnblogs.com/tkqasn/p/6524879.html">
+    <span>深刻理解Python中的元类(metaclass)以及元类实现单例模式</span>
+
+
+
+</a>
+</h5>
+				<div class="postbody">
+
+<div class="c_b_p_desc">
+摘要：在看一些框架源代码的过程中碰到很多元类的实例，看起来很吃力很晦涩；在看python cookbook中关于元类创建单例模式的那一节有些疑惑。因此花了几天时间研究下元类这个概念。通过学习元类，我对python的面向对象有了更加深入的了解。这里将一篇写的非常好的文章基本照搬过来吧，这是一篇在Stack
+        <a href="https://www.cnblogs.com/tkqasn/p/6524879.html" class="c_b_p_desc_readmore">阅读全文</a>
+</div>
+
+
+				</div>
+				<p class="postfoot">
+
+<!--Post Desc-->
+posted @ <a href="https://www.cnblogs.com/tkqasn/p/6524879.html" title="permalink">2017-03-15 14:31</a><text> </text>
+苍松
+        <span class="post-view-count">阅读(33948)</span>
+        <span class="post-comment-count">评论(11)</span>
+        <span class="post-digg-count">推荐(17)</span>     <a href="https://i.cnblogs.com/EditPosts.aspx?postid=6524879" rel="nofollow">编辑</a>
+
+				</p>
+			</div>
+			<div class="post">
+				<h5>
+<a class="entrylistItemTitle" href="https://www.cnblogs.com/tkqasn/p/6027214.html">
+    <span>python 内置模块之ConfigParser--配置读写</span>
+
+
+
+</a>
+</h5>
+				<div class="postbody">
+
+<div class="c_b_p_desc">
+摘要：用于对特定的配置进行操作，当前模块的名称在 python 3.x 版本中变更为 configparser。
+        <a href="https://www.cnblogs.com/tkqasn/p/6027214.html" class="c_b_p_desc_readmore">阅读全文</a>
+</div>
+
+
+				</div>
+				<p class="postfoot">
+
+<!--Post Desc-->
+posted @ <a href="https://www.cnblogs.com/tkqasn/p/6027214.html" title="permalink">2016-11-03 16:41</a><text> </text>
+苍松
+        <span class="post-view-count">阅读(169)</span>
+        <span class="post-comment-count">评论(0)</span>
+        <span class="post-digg-count">推荐(0)</span>     <a href="https://i.cnblogs.com/EditPosts.aspx?postid=6027214" rel="nofollow">编辑</a>
+
+				</p>
+			</div>
+			<div class="post">
+				<h5>
+<a class="entrylistItemTitle" href="https://www.cnblogs.com/tkqasn/p/6023840.html">
+    <span>python 内置模块之hashlib、hmac、uuid</span>
+
+
+
+</a>
+</h5>
+				<div class="postbody">
+
+<div class="c_b_p_desc">
+摘要：一、hashlib md5和sha算法通过消息摘要算法生成定长的消息摘要，消息摘要算法是不可逆的。但同一段消息通过摘要算法后得到的值是一样的，可一通过比对消息摘要验证数据的完整性。 sha算法比MD5算法安全，但所需的时间也稍长。 1、原始消息摘要 2、加盐(salt)后摘要 由于同一个消息通过摘要
+        <a href="https://www.cnblogs.com/tkqasn/p/6023840.html" class="c_b_p_desc_readmore">阅读全文</a>
+</div>
+
+
+				</div>
+				<p class="postfoot">
+
+<!--Post Desc-->
+posted @ <a href="https://www.cnblogs.com/tkqasn/p/6023840.html" title="permalink">2016-11-03 16:02</a><text> </text>
+苍松
+        <span class="post-view-count">阅读(4988)</span>
+        <span class="post-comment-count">评论(0)</span>
+        <span class="post-digg-count">推荐(0)</span>     <a href="https://i.cnblogs.com/EditPosts.aspx?postid=6023840" rel="nofollow">编辑</a>
+
+				</p>
+			</div>
+			<div class="post">
+				<h5>
+<a class="entrylistItemTitle" href="https://www.cnblogs.com/tkqasn/p/6020282.html">
+    <span>python 内置模块之logging</span>
+
+
+
+</a>
+</h5>
+				<div class="postbody">
+
+<div class="c_b_p_desc">
+摘要：1、将日志直接输出到屏幕 2.通过logging.basicConfig函数对日志的输出格式及方式做相关配置 logging.basicConfig参数： 3、将日志同时输出到多个Handler 先定义一个住handler，并使用addHander()添加到主handler,实现日志输出到多个han
+        <a href="https://www.cnblogs.com/tkqasn/p/6020282.html" class="c_b_p_desc_readmore">阅读全文</a>
+</div>
+
+
+				</div>
+				<p class="postfoot">
+
+<!--Post Desc-->
+posted @ <a href="https://www.cnblogs.com/tkqasn/p/6020282.html" title="permalink">2016-11-02 16:58</a><text> </text>
+苍松
+        <span class="post-view-count">阅读(476)</span>
+        <span class="post-comment-count">评论(0)</span>
+        <span class="post-digg-count">推荐(0)</span>     <a href="https://i.cnblogs.com/EditPosts.aspx?postid=6020282" rel="nofollow">编辑</a>
+
+				</p>
+			</div>
+			<div class="post">
+				<h5>
+<a class="entrylistItemTitle" href="https://www.cnblogs.com/tkqasn/p/6019484.html">
+    <span>python 内置模块之os、sys、shutil</span>
+
+
+
+</a>
+</h5>
+				<div class="postbody">
+
+<div class="c_b_p_desc">
+摘要：一、OS模块 用于提供系统级别的操作。 更多猛击这里 二、SYS模块 用于提供对解释器相关的操作 更多猛击这里 import sys print "script name is", sys.argv[0] # 使用sys.argv[0]采集脚本名称 if len(sys.argv) &gt; 1: # 使
+        <a href="https://www.cnblogs.com/tkqasn/p/6019484.html" class="c_b_p_desc_readmore">阅读全文</a>
+</div>
+
+
+				</div>
+				<p class="postfoot">
+
+<!--Post Desc-->
+posted @ <a href="https://www.cnblogs.com/tkqasn/p/6019484.html" title="permalink">2016-11-01 15:03</a><text> </text>
+苍松
+        <span class="post-view-count">阅读(242)</span>
+        <span class="post-comment-count">评论(0)</span>
+        <span class="post-digg-count">推荐(0)</span>     <a href="https://i.cnblogs.com/EditPosts.aspx?postid=6019484" rel="nofollow">编辑</a>
+
+				</p>
+			</div>
+			<div class="post">
+				<h5>
+<a class="entrylistItemTitle" href="https://www.cnblogs.com/tkqasn/p/6005025.html">
+    <span>python 序列化之JSON和pickle详解</span>
+
+
+
+</a>
+</h5>
+				<div class="postbody">
+
+<div class="c_b_p_desc">
+摘要：JSON模块 JSON(JavaScript Object Notation) 是一种轻量级的数据交换格式。它基于ECMAScript的一个子集。 JSON采用完全独立于语言的文本格式，但是也使用了类似于C语言家族的习惯(包括C、C++、Java、JavaScript、Perl、Python等)。这
+        <a href="https://www.cnblogs.com/tkqasn/p/6005025.html" class="c_b_p_desc_readmore">阅读全文</a>
+</div>
+
+
+				</div>
+				<p class="postfoot">
+
+<!--Post Desc-->
+posted @ <a href="https://www.cnblogs.com/tkqasn/p/6005025.html" title="permalink">2016-10-27 18:22</a><text> </text>
+苍松
+        <span class="post-view-count">阅读(14546)</span>
+        <span class="post-comment-count">评论(0)</span>
+        <span class="post-digg-count">推荐(4)</span>     <a href="https://i.cnblogs.com/EditPosts.aspx?postid=6005025" rel="nofollow">编辑</a>
+
+				</p>
+			</div>
+			<div class="post">
+				<h5>
+<a class="entrylistItemTitle" href="https://www.cnblogs.com/tkqasn/p/6003959.html">
+    <span>python with语句上下文管理的两种实现方法</span>
+
+
+
+</a>
+</h5>
+				<div class="postbody">
+
+<div class="c_b_p_desc">
+摘要：在编程中会经常碰到这种情况：有一个特殊的语句块，在执行这个语句块之前需要先执行一些准备动作；当语句块执行完成后，需要继续执行一些收尾动作。例如，文件读写后需要关闭，数据库读写完毕需要关闭连接，资源的加锁和解锁等情况。对于这种情况python提供了上下文管理器（Context Manager）的概念，
+        <a href="https://www.cnblogs.com/tkqasn/p/6003959.html" class="c_b_p_desc_readmore">阅读全文</a>
+</div>
+
+
+				</div>
+				<p class="postfoot">
+
+<!--Post Desc-->
+posted @ <a href="https://www.cnblogs.com/tkqasn/p/6003959.html" title="permalink">2016-10-27 14:53</a><text> </text>
+苍松
+        <span class="post-view-count">阅读(3527)</span>
+        <span class="post-comment-count">评论(0)</span>
+        <span class="post-digg-count">推荐(0)</span>     <a href="https://i.cnblogs.com/EditPosts.aspx?postid=6003959" rel="nofollow">编辑</a>
+
+				</p>
+			</div>
+			<div class="post">
+				<h5>
+<a class="entrylistItemTitle" href="https://www.cnblogs.com/tkqasn/p/6001134.html">
+    <span>python time模块和datetime模块详解</span>
+
+
+
+</a>
+</h5>
+				<div class="postbody">
+
+<div class="c_b_p_desc">
+摘要：一、time模块 time模块中时间表现的格式主要有三种： a、timestamp时间戳，时间戳表示的是从1970年1月1日00:00:00开始按秒计算的偏移量 b、struct_time时间元组，共有九个元素组。 c、format time 格式化时间，已格式化的结构使时间更具可读性。包括自定义格
+        <a href="https://www.cnblogs.com/tkqasn/p/6001134.html" class="c_b_p_desc_readmore">阅读全文</a>
+</div>
+
+
+				</div>
+				<p class="postfoot">
+
+<!--Post Desc-->
+posted @ <a href="https://www.cnblogs.com/tkqasn/p/6001134.html" title="permalink">2016-10-26 23:37</a><text> </text>
+苍松
+        <span class="post-view-count">阅读(59057)</span>
+        <span class="post-comment-count">评论(0)</span>
+        <span class="post-digg-count">推荐(7)</span>     <a href="https://i.cnblogs.com/EditPosts.aspx?postid=6001134" rel="nofollow">编辑</a>
+
+				</p>
+			</div>
+			<div class="post">
+				<h5>
+<a class="entrylistItemTitle" href="https://www.cnblogs.com/tkqasn/p/5984090.html">
+    <span>python 迭代器和生成器详解</span>
+
+
+
+</a>
+</h5>
+				<div class="postbody">
+
+<div class="c_b_p_desc">
+摘要：一、迭代器 说迭代器之前有两个相关的名词需要介绍：可迭代对象：只要定义了__iter__()方法，我们就说该对象是可迭代对象，并且可迭代对象能提供迭代器。迭代器：实现了__next__()或者next()(python2)方法的称为迭代器，迭代器仅仅在迭代到某个元素时才计算该元素，而在这之前或之后，
+        <a href="https://www.cnblogs.com/tkqasn/p/5984090.html" class="c_b_p_desc_readmore">阅读全文</a>
+</div>
+
+
+				</div>
+				<p class="postfoot">
+
+<!--Post Desc-->
+posted @ <a href="https://www.cnblogs.com/tkqasn/p/5984090.html" title="permalink">2016-10-21 11:55</a><text> </text>
+苍松
+        <span class="post-view-count">阅读(3444)</span>
+        <span class="post-comment-count">评论(0)</span>
+        <span class="post-digg-count">推荐(0)</span>     <a href="https://i.cnblogs.com/EditPosts.aspx?postid=5984090" rel="nofollow">编辑</a>
+
+				</p>
+			</div>
+			<div class="post">
+				<h5>
+<a class="entrylistItemTitle" href="https://www.cnblogs.com/tkqasn/p/5933261.html">
+    <span>Django之Model（一）--基础篇</span>
+
+
+
+</a>
+</h5>
+				<div class="postbody">
+
+<div class="c_b_p_desc">
+摘要：0、数据库配置 django默认支持sqlite，mysql, oracle,postgresql数据库。Django连接数据库默认编码使用UTF8，使用中文不需要特别设置。 mysql引擎配置： 'defaults': { 'ENGINE': 'django.db.backends.mysql',
+        <a href="https://www.cnblogs.com/tkqasn/p/5933261.html" class="c_b_p_desc_readmore">阅读全文</a>
+</div>
+
+
+				</div>
+				<p class="postfoot">
+
+<!--Post Desc-->
+posted @ <a href="https://www.cnblogs.com/tkqasn/p/5933261.html" title="permalink">2016-10-06 16:28</a><text> </text>
+苍松
+    <a href="https://i.cnblogs.com/EditPosts.aspx?postid=5933261" rel="nofollow">编辑</a>
+
+				</p>
+			</div>
+			<div class="post">
+				<h5>
+<a class="entrylistItemTitle" href="https://www.cnblogs.com/tkqasn/p/5879175.html">
+    <span>tornado自定义分页扩展</span>
+
+
+
+</a>
+</h5>
+				<div class="postbody">
+
+<div class="c_b_p_desc">
+摘要：一、分页扩展类 #! /usr/bin/env python # -*- coding:utf-8 -*- # __author__ = "TKQ" class Pagination: def __init__(self,current_page,all_item,base_url='',per_p
+        <a href="https://www.cnblogs.com/tkqasn/p/5879175.html" class="c_b_p_desc_readmore">阅读全文</a>
+</div>
+
+
+				</div>
+				<p class="postfoot">
+
+<!--Post Desc-->
+posted @ <a href="https://www.cnblogs.com/tkqasn/p/5879175.html" title="permalink">2016-09-17 17:11</a><text> </text>
+苍松
+        <span class="post-view-count">阅读(460)</span>
+        <span class="post-comment-count">评论(0)</span>
+        <span class="post-digg-count">推荐(0)</span>     <a href="https://i.cnblogs.com/EditPosts.aspx?postid=5879175" rel="nofollow">编辑</a>
+
+				</p>
+			</div>
+			<div class="post">
+				<h5>
+<a class="entrylistItemTitle" href="https://www.cnblogs.com/tkqasn/p/5869175.html">
+    <span>AJAX请求和跨域请求详解（原生JS、Jquery）</span>
+
+
+
+</a>
+</h5>
+				<div class="postbody">
+
+<div class="c_b_p_desc">
+摘要：一、概述 AJAX 是一种在无需重新加载整个网页的情况下，能够更新部分网页的技术。 AJAX = 异步 JavaScript 和 XML,是一种用于创建快速动态网页的技术。通过在后台与服务器进行少量数据交换，AJAX 可以使网页实现异步更新。这意味着可以在不重新加载整个网页的情况下，对网页的某部分进
+        <a href="https://www.cnblogs.com/tkqasn/p/5869175.html" class="c_b_p_desc_readmore">阅读全文</a>
+</div>
+
+
+				</div>
+				<p class="postfoot">
+
+<!--Post Desc-->
+posted @ <a href="https://www.cnblogs.com/tkqasn/p/5869175.html" title="permalink">2016-09-15 23:49</a><text> </text>
+苍松
+        <span class="post-view-count">阅读(18935)</span>
+        <span class="post-comment-count">评论(4)</span>
+        <span class="post-digg-count">推荐(3)</span>     <a href="https://i.cnblogs.com/EditPosts.aspx?postid=5869175" rel="nofollow">编辑</a>
+
+				</p>
+			</div>
+			<div class="post">
+				<h5>
+<a class="entrylistItemTitle" href="https://www.cnblogs.com/tkqasn/p/5856552.html">
+    <span>python装饰器总结</span>
+
+
+
+</a>
+</h5>
+				<div class="postbody">
+
+<div class="c_b_p_desc">
+摘要：一、装饰器是什么 python的装饰器本质上是一个Python函数，它可以让其他函数在不需要做任何代码变动的前提下增加额外功能，装饰器的返回值也是一个函数对象。简单的说装饰器就是一个用来返回函数的函数。 它经常用于有切面需求的场景，比如：插入日志、性能测试、事务处理、缓存、权限校验等场景。装饰器是解
+        <a href="https://www.cnblogs.com/tkqasn/p/5856552.html" class="c_b_p_desc_readmore">阅读全文</a>
+</div>
+
+
+				</div>
+				<p class="postfoot">
+
+<!--Post Desc-->
+posted @ <a href="https://www.cnblogs.com/tkqasn/p/5856552.html" title="permalink">2016-09-09 14:33</a><text> </text>
+苍松
+        <span class="post-view-count">阅读(323)</span>
+        <span class="post-comment-count">评论(0)</span>
+        <span class="post-digg-count">推荐(0)</span>     <a href="https://i.cnblogs.com/EditPosts.aspx?postid=5856552" rel="nofollow">编辑</a>
+
+				</p>
+			</div>
+			<div class="post">
+				<h5>
+<a class="entrylistItemTitle" href="https://www.cnblogs.com/tkqasn/p/5711593.html">
+    <span>python自定义线程池</span>
+
+
+
+</a>
+</h5>
+				<div class="postbody">
+
+<div class="c_b_p_desc">
+摘要：关于python的多线程，由与GIL的存在被广大群主所诟病，说python的多线程不是真正的多线程。但多线程处理IO密集的任务效率还是可以杠杠的。 我实现的这个线程池其实是根据银角的思路来实现的。 主要思路： 任务获取和执行： 1、任务加入队列，等待线程来获取并执行。 2、按需生成线程，每个线程循环
+        <a href="https://www.cnblogs.com/tkqasn/p/5711593.html" class="c_b_p_desc_readmore">阅读全文</a>
+</div>
+
+
+				</div>
+				<p class="postfoot">
+
+<!--Post Desc-->
+posted @ <a href="https://www.cnblogs.com/tkqasn/p/5711593.html" title="permalink">2016-07-27 16:54</a><text> </text>
+苍松
+        <span class="post-view-count">阅读(787)</span>
+        <span class="post-comment-count">评论(0)</span>
+        <span class="post-digg-count">推荐(0)</span>     <a href="https://i.cnblogs.com/EditPosts.aspx?postid=5711593" rel="nofollow">编辑</a>
+
+				</p>
+			</div>
+			<div class="post">
+				<h5>
+<a class="entrylistItemTitle" href="https://www.cnblogs.com/tkqasn/p/5705338.html">
+    <span>python--gevent协程及协程概念</span>
+
+
+
+</a>
+</h5>
+				<div class="postbody">
+
+<div class="c_b_p_desc">
+摘要：何为协程 协程，又称微线程。英文名Coroutine。 协程最大的优势就是协程极高的执行效率。因为子程序切换不是线程切换，而是由程序自身控制，因此，没有线程切换的开销，和多线程比，线程数量越多，协程的性能优势就越明显。 第二大优势就是不需要多线程的锁机制，因为只有一个线程，也不存在同时写变量冲突，在
+        <a href="https://www.cnblogs.com/tkqasn/p/5705338.html" class="c_b_p_desc_readmore">阅读全文</a>
+</div>
+
+
+				</div>
+				<p class="postfoot">
+
+<!--Post Desc-->
+posted @ <a href="https://www.cnblogs.com/tkqasn/p/5705338.html" title="permalink">2016-07-27 15:31</a><text> </text>
+苍松
+        <span class="post-view-count">阅读(7423)</span>
+        <span class="post-comment-count">评论(0)</span>
+        <span class="post-digg-count">推荐(0)</span>     <a href="https://i.cnblogs.com/EditPosts.aspx?postid=5705338" rel="nofollow">编辑</a>
+
+				</p>
+			</div>
+			<div class="post">
+				<h5>
+<a class="entrylistItemTitle" href="https://www.cnblogs.com/tkqasn/p/5701230.html">
+    <span>python--multiprocessing多进程总结</span>
+
+
+
+</a>
+</h5>
+				<div class="postbody">
+
+<div class="c_b_p_desc">
+摘要：由于GIL的存在，python中的多线程其实并不是真正的多线程，如果想要充分地使用多核CPU的资源，在python中大部分情况需要使用多进程。Python提供了非常好用的多进程包multiprocessing，只需要定义一个函数，Python会完成其他所有事情。借助这个包，可以轻松完成从单进程到并发
+        <a href="https://www.cnblogs.com/tkqasn/p/5701230.html" class="c_b_p_desc_readmore">阅读全文</a>
+</div>
+
+
+				</div>
+				<p class="postfoot">
+
+<!--Post Desc-->
+posted @ <a href="https://www.cnblogs.com/tkqasn/p/5701230.html" title="permalink">2016-07-27 14:55</a><text> </text>
+苍松
+        <span class="post-view-count">阅读(49620)</span>
+        <span class="post-comment-count">评论(0)</span>
+        <span class="post-digg-count">推荐(1)</span>     <a href="https://i.cnblogs.com/EditPosts.aspx?postid=5701230" rel="nofollow">编辑</a>
+
+				</p>
+			</div>
+			<div class="post">
+				<h5>
+<a class="entrylistItemTitle" href="https://www.cnblogs.com/tkqasn/p/5700281.html">
+    <span>python--threading多线程总结</span>
+
+
+
+</a>
+</h5>
+				<div class="postbody">
+
+<div class="c_b_p_desc">
+摘要：threading用于提供线程相关的操作，线程是应用程序中工作的最小单元。python当前版本的多线程库没有实现优先级、线程组，线程也不能被停止、暂停、恢复、中断。 threading模块提供的类： Thread, Lock, Rlock, Condition, [Bounded]Semaphore
+        <a href="https://www.cnblogs.com/tkqasn/p/5700281.html" class="c_b_p_desc_readmore">阅读全文</a>
+</div>
+
+
+				</div>
+				<p class="postfoot">
+
+<!--Post Desc-->
+posted @ <a href="https://www.cnblogs.com/tkqasn/p/5700281.html" title="permalink">2016-07-27 14:47</a><text> </text>
+苍松
+        <span class="post-view-count">阅读(231486)</span>
+        <span class="post-comment-count">评论(11)</span>
+        <span class="post-digg-count">推荐(9)</span>     <a href="https://i.cnblogs.com/EditPosts.aspx?postid=5700281" rel="nofollow">编辑</a>
+
+				</p>
+			</div>
+
+<p>
+
+
+
+
+</p>
+
+
+
+
+
+
+</div>
+</div>

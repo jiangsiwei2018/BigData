@@ -1,0 +1,17 @@
+<configuration>
+    <property>
+        <!--指定namenode的地址-->
+        <name>fs.defaultFS</name>
+        <value>hdfs://master:9000</value>
+    </property>
+    <property>
+        <!--用来指定使用hadoop时产生文件的存放目录-->
+        <name>hadoop.tmp.dir</name>
+        <value>file:///usr/hadoop/hadoop-2.6.0/tmp</value>
+    </property>
+    <property>
+        <!--用来设置检查点备份日志的最长时间-->
+        <name>fs.checkpoint.period</name>
+        <value>3600</value>
+    </property>
+ </configuration>
