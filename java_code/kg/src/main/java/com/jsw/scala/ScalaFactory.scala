@@ -1,6 +1,7 @@
-package com.jsw.kg;
+package com.jsw.scala
 
 import scala.collection.mutable
+
 
 class BaseSite {
 	//  属性和方法都可以被重写

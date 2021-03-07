@@ -1,7 +1,6 @@
-package com.jsw.kg;
+package com.jsw.scala
 
 import java.util
-
 import scala.collection.mutable
 
 class ScalaTestDataStruct {

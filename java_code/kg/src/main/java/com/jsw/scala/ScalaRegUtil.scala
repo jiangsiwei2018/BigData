@@ -1,4 +1,4 @@
-package com.jsw.kg
+package com.jsw.scala
 
 import scala.util.matching.Regex
 

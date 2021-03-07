@@ -1,8 +1,8 @@
-package com.jsw.kg;
+package com.jsw.scala
 
 import java.io.{BufferedWriter, File, FileWriter}
-
 import scala.io.Source
+import com.jsw.java.JavaFileUtil
 
 object ScalaFileUtil{
 
