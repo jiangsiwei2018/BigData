@@ -2,7 +2,9 @@
 import hashlib
 import subprocess
 import re
-from data_common.utils.log_util import Logger
+import tempfile
+
+from data_common.utils.log_util import Logger, logger_exception
 
 
 class Common:
@@ -47,7 +49,7 @@ class Common:
         return text.strip()
 
     @staticmethod
-    def execute(cmd):
+    def execute1(cmd):
         """
         @functions：execute
         @param cmd： 执行命令
@@ -113,9 +115,24 @@ class Common:
         return True
 
     @staticmethod
-    def execute3(cmd):
+    def execute(cmd):
         """使用file.cache缓存临时输出"""
-        pass
+        temp_file = tempfile.TemporaryFile(mode='w+')
+        lines = []
+        return_code = 0
+        try:
+            fileno = temp_file.fileno()
+            sub_proc = subprocess.Popen(cmd, shell=True, stdout=fileno, stderr=fileno)
+            sub_proc.communicate()
+            return_code = not sub_proc.returncode
+            temp_file.seek(0)
+            lines = temp_file.readlines()
+        except:
+            logger_exception()
+        finally:
+            temp_file.close()
+        return return_code, lines
+
 if __name__ == '__main__':
-    url = 'https://movie\\w+.douban.com'
-    print(Common.get_domain(url))
+    cmd = 'help'
+    print(Common.execute(cmd))
