@@ -1,5 +1,5 @@
 package com.jsw.java;
-	
+
 
 public class App {
 
@@ -16,6 +16,9 @@ public class App {
 		 String url = "https://www.baidu.com";
 		 Site site = app.SiteList(url);
 		 System.out.println(site.process(url, "<html></html>"));
+
+//		JSON.parseObject(jsonString, classOf[Nothing])
+//		JSON.toJSONString(Object object)
 	}
 	
 }

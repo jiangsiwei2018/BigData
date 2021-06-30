@@ -28,7 +28,7 @@ public class TestJavaSpark {
 	@SuppressWarnings("resource")
 	public static void main(String[] args) {
 		
-		SparkConf sparkConf = new SparkConf().setAppName("test").setMaster("local");
+		SparkConf sparkConf = new SparkConf().setMaster("local").setAppName("test");
 
 		JavaSparkContext sparkContext = new JavaSparkContext(sparkConf);
 		
