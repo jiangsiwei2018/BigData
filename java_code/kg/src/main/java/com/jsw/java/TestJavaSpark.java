@@ -28,18 +28,23 @@ public class TestJavaSpark {
 	@SuppressWarnings("resource")
 	public static void main(String[] args) {
 		
-		SparkConf sparkConf = new SparkConf().setMaster("local").setAppName("test");
+//		SparkConf sparkConf = new SparkConf().setMaster("local").setAppName("test");
+//
+//		JavaSparkContext sparkContext = new JavaSparkContext(sparkConf);
 
-		JavaSparkContext sparkContext = new JavaSparkContext(sparkConf);
-		
+		SparkConf conf = new SparkConf().setAppName("test").setMaster("local");
+		//将conf传入jsc中
+		JavaSparkContext jsc = new JavaSparkContext(conf);
+
 		List<String> list = new ArrayList<>();
 
         list.add("0001");
         list.add("0002");
         list.add("0003");
         list.add("0004");
-        
-		JavaRDD<Object> rdd = sparkContext.parallelize(list)
+
+
+		JavaRDD<Object> rdd = jsc.parallelize(list)
 				.mapPartitions(iterator -> getValue(iterator));
 		
 		for (Object object : rdd.collect()) {
