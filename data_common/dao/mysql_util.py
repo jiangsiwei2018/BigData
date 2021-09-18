@@ -98,12 +98,21 @@ class SqlUtil(metaclass=SingletonType):
         sql = SqlUtil.INSERT_TABLE.format(table=table, keys=self.convert_keys(keys), values=place)
         return self.command(sql, values)
 
-    def find(self, table, where={}, keys=None, calc_rows=True, multi=True, limit=0, offset=0):
+    def find(self, table, where={}, keys=None, calc_rows=True, multi=True,
+             other=None, group=None, order=None, limit=0, offset=0):
         w_keys, w_place, w_values = self.convert_where_data(where)
         sql = SqlUtil.SELECT_TABLE.format(table=table,
                                           calc_rows="SQL_CALC_FOUND_ROWS" if calc_rows else "",
                                           keys=self.convert_keys(keys) if keys else "*",
                                           where=w_place)
+        if other:
+            sql += other
+        if group:
+            sql += f'GROUP BY {group}'
+        if order:
+            if not isinstance(order, dict):
+                order = {'key': order, 'reverse': 'DESC'}
+            sql += f"ORDER BY {order.get('key')} {order.get('reverse', 'DESC')}"
         if not multi:
             sql =  sql + ' limit 1'
         if limit:
@@ -124,7 +133,7 @@ class SqlUtil(metaclass=SingletonType):
         return self.command(sql, u_values + w_values)
 
     def delete(self, table, where):
-        w_keys, w_place, w_values = self.convert_where_data(where)
+        w_keys, w_place, w_values = self.convert_where_data(where, ', ')
         sql = SqlUtil.DELETE_TABLE.format(table=table, where=w_place)
         return self.command(sql, w_values)
 
@@ -168,7 +177,10 @@ class SqlUtil(metaclass=SingletonType):
         for item in value_list:
             value = list()
             for k in keys:
-                value.append(f'`{item[k]}`')
+                if k is None:
+                    value.append(None)
+                else:
+                    value.append(f'`{item[k]}`')
             values.append(tuple(value))
         return keys, ', '.join(place), values
 
@@ -189,9 +201,13 @@ class SqlUtil(metaclass=SingletonType):
                 for kk, vv in _v.items():
                     _join = SqlUtil.where_dict.get(kk, '=')
                     _v = vv
-            where_keys.append(f'`{_k}`{_join}%s')
-            where_vals.append(_v)
-            keys.append(_k)
+                    where_keys.append(f'`{_k}` {_join} %s')
+                    where_vals.append(_v)
+                    keys.append(_k)
+            else:
+                where_keys.append(f'`{_k}` {_join} %s')
+                where_vals.append(_v)
+                keys.append(_k)
         place = _and.join(where_keys)
         values = tuple(where_vals)
         return keys, place, values
@@ -238,7 +254,7 @@ class SqlAlchemyUtil(SqlUtil):
 
             if calc_rows:
                 result = cursor.execute("SELECT FOUND_ROWS() as total")
-                rows = [dict(item.items()) for item in result]
+                rows = [dict(zip(item.keys(), item)) for item in result]
                 row_count = rows[0].get('total', 0)
 
             if trans_opt:
