@@ -63,13 +63,13 @@ class SingletonDecC(object):
 
 def SingletonDecM(cls):
     """装饰器方法"""
-    instances = {}
+    _instance_pool = {}
     def _singleton(*args, **kwargs):
         temp = list(sorted(kwargs.items(), key=lambda x: x[0]))
         cls_key = '{}_{}_{}'.format(cls.__name__, args, temp)
-        if cls_key not in instances:
-            instances[cls_key] = cls(*args, **kwargs)
-        return instances[cls_key]
+        if cls_key not in _instance_pool:
+            _instance_pool[cls_key] = cls(*args, **kwargs)
+        return _instance_pool[cls_key]
     return _singleton
 
 
@@ -114,7 +114,7 @@ class SingletonClass(object):
 if __name__ == '__main__':
     # example
 
-    @SingletonDecC
+    @SingletonDecM
     class A1:
 
         def __init__(self, a, b, **kwargs):
